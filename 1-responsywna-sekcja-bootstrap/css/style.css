@@ -1,0 +1,27 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h1 {
+    font-weight: bold;
+}
+
+
+hr {
+    width: 25%;
+}
+
+.fa-brands {
+    color: rgb(226, 134, 13);
+    display: inline;
+}
+
+
+.fa-border {
+   border-radius: 75%;
+   background-color: lightgray;
+   height: 50px;
+   width: 50px;
+   border-style: none;
+}
