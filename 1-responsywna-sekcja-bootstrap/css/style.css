@@ -12,9 +12,15 @@ hr {
     width: 25%;
 }
 
+
 .fa-brands {
     color: rgb(226, 134, 13);
     display: inline;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 50px;
 }
 
 
@@ -25,3 +31,4 @@ hr {
    width: 50px;
    border-style: none;
 }
+
