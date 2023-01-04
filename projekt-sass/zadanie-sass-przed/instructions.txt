@@ -1,0 +1,65 @@
+Twoim zadaniem jest wprowadzenie modyfikacji zgodnie z poniższą specyfikacją i załączonym podglądem:
+
+Ogólne:
+- w Visual Studio otwórz folder 'zadanie-sass-przed'
+- zmian dokonuj wyłącznie w plikach .scss (nie wprowadzaj zmian w plikach .html ani .css)
+- zmiany opisane poniżej dotyczą rozdzielczości desktopowych - powyżej 1200px
+- zmiany dotyczą tylko widoku index.html
+- część zmian wymaga edycji istniejących właściwości i wartości, część wymaga dopisania nowych właściwości
+- NIE ma potrzeby dodawania nowych plików .scss
+- NIE edytujemy plików bibliotek takich jak normalize, Bootstrap, FontAwesome
+- style najłatwiej zlokalizować poprzez wyszukiwanie odpowiednich selektorów w plikach .scss projektu -> Jak to zrobić?
+
+- W "Project Explorerze" Visual Studio Code (czyli lista plików i folderów w lewej kolumnie w VSC) kliknij prawym przyciskiem myszy na folderze 'scss'
+- wybierz opcję 'Find in folder...'
+- Wyszukiwane frazy (selektory CSS) wpisuj w polu "Search"
+- poniżej pojawi się lista z wynikami wyszukiwania
+
+Kolory:
+- buttony, linki, ikony - #a5e200, rgb(165,226,0)
+- buttony, linki, ikony (hover) - #88ba00, rgb(136,186,0)
+- tło górnego paska, sekcji z id "counter-services" i "slider-testimonials" - #f0f4dc
+
+Czcionki:
+- nagłówki: "Archivo Black"
+- pozostały tekst: "Raleway"
+- czcionki należy dodać poprzez import z Google Fonts w odpowiednim pliku .scss
+
+Nagłówek h1 w sliderze:
+- wielkość czcionki: 38px
+- odległość między literami 4px (letter-spacing)
+- tekst dużymi literami (uppercase)
+
+Tekst pod nagłówkiem w sliderze:
+- tekst dużymi literami (uppercase)
+
+Button pod nagłówkiem h1 ("View more"):
+- wielkość czcionki: 22px
+- wyżej o 24px (margines)
+
+Linie pod nagłówkami:
+- sekcja z id about, services, counters-progress, team oraz counters-numbers - szerokość 150px divider-light-dark
+$baseline: $base-font-size * 1.5;
+16 x 1,5 = 24 
+24 x 3.3 = 79,2
+- sekcja z id counters-services (linie pod tytułami) - szerokość 25px, przezroczystość 50%
+
+Ikony w sekcji z id about:
+- wysokość i szerokość - 96px
+- ikony wyśrodkowane względem kółek
+base font size = 16
+
+
+
+Sekcja z id portfolio:
+- wydłużenie czasu pojawiania się ciemnego tła (hover na obrazkach), czas trwania 1s
+
+Sekcja z id counters-services:
+- dodanie efektu przejścia ikon po najechaniu na nie kursorem - powinny obracać się o -45deg, efekt przejścia płynny trwający 0.5s
+
+Sekcja z footer:
+- górny padding sekcji 80px
+- większe ikony social media 25px (font-size)
+
+Zadanie domowe należy oddać za pomocą GitHub Pages.
+
