@@ -1,0 +1,10 @@
+@mixin flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+// srodkowanie flexboxa
+@mixin flex-align($justify, $align) {
+    justify-content: $justify;
+    align-items: $align;
+}
